@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.html {
+    font-size: 16px;
+    color: white;
+}
+::root {
+    --white-color : rgb(255, 255, 255);
+    --text-color : rgb(31, 28, 28);
+}
+.main {
+    position: relative;
+    background:url( 'https://secureservercdn.net/45.40.148.117/36g.a70.mwp.accessdomain.com/wp-content/uploads/2021/05/lc.jpg?time=1641176072' );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 0px;
+    height: 730px;
+    margin: 0px;
+
+    /* background-color: violet; */
+    width: 100%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.container__sub {
+    
+}
